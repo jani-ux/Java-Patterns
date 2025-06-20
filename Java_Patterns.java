@@ -67,5 +67,35 @@ public class Java_Patterns {
             System.out.println(" ");
         }
         System.out.println("");
+        
+        //Equilateral Triangle
+        System.out.println("Right Angular Triangle Align Up-Right");
+        for(int i=n; i >0; i--){
+            for(int j=1; j<=n; j++){
+                if(j<i){
+                    System.out.print(" ");
+                }else
+                {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println(" ");
+        }
+        System.out.println("");
+        
+        //Equilateral Triangle Inverse
+        System.out.println("Right Angular Triangle Align Up-Right");
+        for(int i=1; i <=n; i++){
+            for(int j=1; j<=n; j++){
+                if(j<i){
+                    System.out.print(" ");
+                }else
+                {
+                    System.out.print("* ");
+                }
+            }
+            System.out.println(" ");
+        }
+        System.out.println("");
     }
 }
