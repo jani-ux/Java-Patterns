@@ -255,5 +255,18 @@ public class Java_Patterns {
         }
             System.out.println(" ");
         }
+        System.out.println(" ");
+         //Pyramid
+        System.out.println("Pyramid");
+        for(int i=n; i>0; i--){
+            for(int j=n; j>i; j--){
+                System.out.print("  ");
+            }
+            for(int j=1; j<= 2*i -1 ; j++){
+            System.out.print(" *");
+        }
+            System.out.println(" ");
+        }
+    }
     }
 }
